@@ -1,3 +1,46 @@
-h1 {
-    color: red;
+
+.container {
+    background-color: #c2c2d6;
+    height: 100vh;
+    border: 1px solid #c2c2d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calulator {
+    background-color: black;
+    width: 330px;
+    color: white;
+}
+
+.input {
+    margin: 5px;
+    text-align: right;
+    height: 15px;
+}
+
+.last {
+    margin: 5px;
+    text-align: right;
+    height: 15px;
+}
+
+#display {
+    margin: 5px 5px;
+    text-align: right;
+}
+
+.ac-div-mul {
+    margin: 5px;
+    display: inline;
+}
+
+.one-two-three{
+    display: flex;
+}
+
+.zero-dec-equ {
+    margin-top: -65px;
+    margin-bottom: 5px;
 }
